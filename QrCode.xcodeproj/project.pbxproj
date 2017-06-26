@@ -15,6 +15,7 @@
 		28612EEF1F00DC7200E007AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28612EED1F00DC7200E007AA /* LaunchScreen.storyboard */; };
 		28612EFA1F00DC7200E007AA /* QrCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28612EF91F00DC7200E007AA /* QrCodeTests.m */; };
 		28612F051F00DC7200E007AA /* QrCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28612F041F00DC7200E007AA /* QrCodeUITests.m */; };
+		28612F1A1F0112D000E007AA /* AZPreviewLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 28612F191F0112D000E007AA /* AZPreviewLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		28612F001F00DC7200E007AA /* QrCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QrCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28612F041F00DC7200E007AA /* QrCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QrCodeUITests.m; sourceTree = "<group>"; };
 		28612F061F00DC7200E007AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28612F181F0112D000E007AA /* AZPreviewLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZPreviewLayer.h; sourceTree = "<group>"; };
+		28612F191F0112D000E007AA /* AZPreviewLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZPreviewLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				28612EE31F00DC7200E007AA /* AppDelegate.m */,
 				28612EE51F00DC7200E007AA /* ViewController.h */,
 				28612EE61F00DC7200E007AA /* ViewController.m */,
+				28612F181F0112D000E007AA /* AZPreviewLayer.h */,
+				28612F191F0112D000E007AA /* AZPreviewLayer.m */,
 				28612EE81F00DC7200E007AA /* Main.storyboard */,
 				28612EEB1F00DC7200E007AA /* Assets.xcassets */,
 				28612EED1F00DC7200E007AA /* LaunchScreen.storyboard */,
@@ -207,6 +212,7 @@
 				TargetAttributes = {
 					28612EDB1F00DC7200E007AA = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7K85LG2VWB;
 						ProvisioningStyle = Automatic;
 					};
 					28612EF41F00DC7200E007AA = {
@@ -274,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28612EE71F00DC7200E007AA /* ViewController.m in Sources */,
+				28612F1A1F0112D000E007AA /* AZPreviewLayer.m in Sources */,
 				28612EE41F00DC7200E007AA /* AppDelegate.m in Sources */,
 				28612EE11F00DC7200E007AA /* main.m in Sources */,
 			);
@@ -424,6 +431,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7K85LG2VWB;
 				INFOPLIST_FILE = QrCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jdhoe.azhen.QrCode;
@@ -435,6 +443,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7K85LG2VWB;
 				INFOPLIST_FILE = QrCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jdhoe.azhen.QrCode;
