@@ -16,6 +16,10 @@
 		28612EFA1F00DC7200E007AA /* QrCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28612EF91F00DC7200E007AA /* QrCodeTests.m */; };
 		28612F051F00DC7200E007AA /* QrCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28612F041F00DC7200E007AA /* QrCodeUITests.m */; };
 		28612F1A1F0112D000E007AA /* AZPreviewLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 28612F191F0112D000E007AA /* AZPreviewLayer.m */; };
+		28612F1C1F01F73000E007AA /* Qrbackgroud@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28612F1B1F01F73000E007AA /* Qrbackgroud@3x.png */; };
+		28612F1E1F0200CC00E007AA /* line@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28612F1D1F0200CC00E007AA /* line@3x.png */; };
+		28612F211F0253EB00E007AA /* end@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28612F1F1F0253EB00E007AA /* end@3x.png */; };
+		28612F221F0253EB00E007AA /* star@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28612F201F0253EB00E007AA /* star@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,10 @@
 		28612F061F00DC7200E007AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28612F181F0112D000E007AA /* AZPreviewLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZPreviewLayer.h; sourceTree = "<group>"; };
 		28612F191F0112D000E007AA /* AZPreviewLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZPreviewLayer.m; sourceTree = "<group>"; };
+		28612F1B1F01F73000E007AA /* Qrbackgroud@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Qrbackgroud@3x.png"; sourceTree = "<group>"; };
+		28612F1D1F0200CC00E007AA /* line@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "line@3x.png"; sourceTree = "<group>"; };
+		28612F1F1F0253EB00E007AA /* end@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "end@3x.png"; sourceTree = "<group>"; };
+		28612F201F0253EB00E007AA /* star@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +116,10 @@
 				28612EE31F00DC7200E007AA /* AppDelegate.m */,
 				28612EE51F00DC7200E007AA /* ViewController.h */,
 				28612EE61F00DC7200E007AA /* ViewController.m */,
+				28612F1B1F01F73000E007AA /* Qrbackgroud@3x.png */,
+				28612F1D1F0200CC00E007AA /* line@3x.png */,
+				28612F1F1F0253EB00E007AA /* end@3x.png */,
+				28612F201F0253EB00E007AA /* star@3x.png */,
 				28612F181F0112D000E007AA /* AZPreviewLayer.h */,
 				28612F191F0112D000E007AA /* AZPreviewLayer.m */,
 				28612EE81F00DC7200E007AA /* Main.storyboard */,
@@ -252,9 +264,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28612F1C1F01F73000E007AA /* Qrbackgroud@3x.png in Resources */,
+				28612F211F0253EB00E007AA /* end@3x.png in Resources */,
 				28612EEF1F00DC7200E007AA /* LaunchScreen.storyboard in Resources */,
+				28612F221F0253EB00E007AA /* star@3x.png in Resources */,
 				28612EEC1F00DC7200E007AA /* Assets.xcassets in Resources */,
 				28612EEA1F00DC7200E007AA /* Main.storyboard in Resources */,
+				28612F1E1F0200CC00E007AA /* line@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +449,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7K85LG2VWB;
 				INFOPLIST_FILE = QrCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jdhoe.azhen.QrCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -445,6 +462,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7K85LG2VWB;
 				INFOPLIST_FILE = QrCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jdhoe.azhen.QrCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +534,7 @@
 				28612F0B1F00DC7200E007AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28612F0C1F00DC7200E007AA /* Build configuration list for PBXNativeTarget "QrCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +543,7 @@
 				28612F0E1F00DC7200E007AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28612F0F1F00DC7200E007AA /* Build configuration list for PBXNativeTarget "QrCodeUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +552,7 @@
 				28612F111F00DC7200E007AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
